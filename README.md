@@ -61,9 +61,9 @@ Any changes to the rulebook must follow the formal amendment process described b
 
 ---
 
-## 🗂️ Roster Updates
+## 🗂️ Registery Updates
 
-The Active Club Roster is maintained in a **Google Doc** owned by the Club's official email address. Google Docs' built-in version history automatically tracks every change — who made it, what changed, and when — without requiring any Git knowledge.
+The Active Wings Registery is maintained in a **Google Doc** owned by the Club's official email address. Google Docs' built-in version history automatically tracks every change — who made it, what changed, and when — without requiring any Git knowledge.
 
 Each update should be named in Google Docs version history for clarity:
 
