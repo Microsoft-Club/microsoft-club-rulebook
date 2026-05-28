@@ -115,7 +115,7 @@ All historical signed PDFs are stored in the `/history/` directory. Each entry c
 
 | Version | Date | Description | Signed By |
 |---------|------|-------------|-----------|
-| v1.0 | 2026-05 | Initial ratification of the rulebook | EC 2025–26 |
+| v1.0 | 2026-05 | Initial ratification of the rulebook | EC 2026–27 |
 
 > New entries are added to this table with every ratified amendment.
 
