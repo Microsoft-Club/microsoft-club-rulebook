@@ -8,7 +8,7 @@ The official governing document of the Microsoft Club at Ghulam Ishaq Khan Insti
 
 This repository contains the official rulebook of the Microsoft Club GIKI. It serves as the single source of truth for the club's constitution, governance structure, membership policies, wing structure, and code of conduct.
 
-The rulebook is maintained as a version-controlled document to ensure full transparency, accountability, and a human-readable, auditable history of every change made over time.
+The rulebook is maintained as a version-controlled document to ensure full transparency, accountability, and an auditable history of every change made over time.
 
 ---
 
@@ -16,14 +16,13 @@ The rulebook is maintained as a version-controlled document to ensure full trans
 
 | File | Description |
 |------|-------------|
-| `Microsoft_Club_GIKI_Rulebook.md` | ⭐ Source of truth — all edits happen here. Every word change is tracked line-by-line in Git history. |
-| `Microsoft_Club_GIKI_Rulebook.docx` | Export artifact — generated from the `.md` file for DocuSign and PDF export only. Do not edit directly. |
-| `active-club-roster.md` | Living document — tracks the current Official and Provisional Wings roster. Updated by simple majority EC vote. |
+| `Microsoft_Club_GIKI_Rulebook.docx` | The official rulebook — all edits happen here. This is the single source of truth. |
+| `active-club-roster.md` | Living document — tracks the current Official and Provisional Wings roster. Every change is fully tracked line-by-line in Git history. |
 | `README.md` | This file — repository guide and governance process. |
 | `history/` | Archive of all signed PDFs from every ratified version. |
 
-> **Why `.md` as the source of truth?**
-> A `.docx` is a binary file. When changed, GitHub only shows `Binary file changed` — no detail, no accountability. A `.md` file is plain text, so GitHub shows the exact lines added, removed, or modified in every commit. This is the foundation of our transparency commitment.
+> **Why is the roster a `.md` file?**
+> A `.md` file is plain text, so GitHub shows the exact lines added, removed, or modified in every commit. This gives the club full transparency on every roster change — who changed what, and when.
 
 ---
 
@@ -41,16 +40,14 @@ Any changes to the rulebook must follow the formal amendment process described b
    └─ The Executive Committee (EC) reviews and votes on the proposal
    └─ A 2/3 supermajority is required (per Article XVII of the Rulebook)
 
-3. Update the Source File
-   └─ Edit Microsoft_Club_GIKI_Rulebook.md with the approved changes
-   └─ Every change is now permanently and readably tracked in Git history
+3. Update the Rulebook
+   └─ Edit Microsoft_Club_GIKI_Rulebook.docx with the approved changes
 
 4. Commit to Repository
    └─ Commit with a clear message: "Amendment [#]: [Short Description]"
 
-5. Generate Export Files
-   └─ Export Microsoft_Club_GIKI_Rulebook.docx from the updated .md file
-   └─ Export a PDF version from the .docx
+5. Export PDF
+   └─ Export a PDF version from the updated .docx
 
 6. Sign via DocuSign
    └─ The current EC members sign the PDF through DocuSign
@@ -69,8 +66,10 @@ Any changes to the rulebook must follow the formal amendment process described b
 The `active-club-roster.md` file tracks the current state of all Official and Provisional Wings. It is a **living document** governed by its own lighter update process:
 
 ```
-1. EC votes on the roster change (simple majority for Provisional Wings,
-   2/3 supermajority for Official Wings — per Article IV § 4.4)
+1. EC votes on the roster change
+   └─ Simple majority for Provisional Wings
+   └─ 2/3 supermajority for Official Wings
+   └─ (per Article IV § 4.4 of the Rulebook)
 
 2. Edit active-club-roster.md directly
 
@@ -85,7 +84,7 @@ The `active-club-roster.md` file tracks the current state of all Official and Pr
 
 Any amendment to the **rulebook** becomes effective only after the updated PDF has been:
 
-1. Generated from the latest version of `Microsoft_Club_GIKI_Rulebook.md`
+1. Exported from the latest version of `Microsoft_Club_GIKI_Rulebook.docx`
 2. Signed by all current EC members via DocuSign
 3. Archived in this repository under the `/history/` directory
 
@@ -107,7 +106,7 @@ All historical signed PDFs are stored in the `/history/` directory. Each entry c
 
 | Version | Date | Description | Signed By |
 |---------|------|-------------|-----------|
-| v1.0 | 2026-05 | Initial ratification of the rulebook | EC 2026–27 |
+| v1.0 | 2026-05 | Initial ratification of the rulebook | EC 2025–26 |
 
 > New entries are added to this table with every ratified amendment.
 
@@ -133,7 +132,6 @@ Roles include:
 - All amendment proposals must be made via **GitHub Issues** for full transparency.
 - The `main` branch always reflects the **latest ratified version** of the rulebook.
 - Branches may be used for **drafting amendments** before they are formally approved.
-- The `.docx` file is an **export artifact only** — never edit it directly. All edits go into the `.md` source file.
 
 ---
 
