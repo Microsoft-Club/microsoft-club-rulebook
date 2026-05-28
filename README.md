@@ -22,7 +22,7 @@ The rulebook is maintained as a version-controlled document to ensure full trans
 
 > **Active Club Roster** is maintained as a separate Google Doc owned by the Club's official email. It is not stored in this repository. See the link below.
 >
-> 📄 **[Active Club Roster — Google Doc](#)** *(link maintained by current EC)*
+> 📄 **[Active Club Roster — Google Doc](https://docs.google.com/document/d/1DqZ8fGxEoY18ZvkwLm-5rayrInOqzw1m2310hY7yL2g/edit?usp=sharing)** *(link maintained by current EC)*
 
 ---
 
