@@ -83,7 +83,7 @@ All historical versions of the rulebook are stored in the `/history/` directory 
 
 | Version | Date | Description | Signed By |
 |---------|------|-------------|-----------|
-| v1.0 | 2026-05 | Initial ratification of the rulebook | Founding EC |
+| v1.0 | 2026-05 | Initial ratification of the rulebook | EC 26-27 |
 
 > New entries are added to this table with every ratified amendment.
 
@@ -96,9 +96,8 @@ The **Executive Committee** is the governing body responsible for maintaining an
 Roles typically include:
 - **President**
 - **Vice President**
-- **General Secretary**
-- **Treasurer**
-- **Technical Lead(s)**
+- **Program Manager**
+- **Dev Director**
 
 > The current roster of EC members is maintained internally and updated at the start of each academic term.
 
