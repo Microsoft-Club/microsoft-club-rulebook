@@ -17,12 +17,12 @@ The rulebook is maintained as a version-controlled document to ensure full trans
 | File | Description |
 |------|-------------|
 | `Microsoft_Club_GIKI_Rulebook.docx` | The official rulebook — all edits happen here. This is the single source of truth. |
-| `active-club-roster.md` | Living document — tracks the current Official and Provisional Wings roster. Every change is fully tracked line-by-line in Git history. |
 | `README.md` | This file — repository guide and governance process. |
 | `history/` | Archive of all signed PDFs from every ratified version. |
 
-> **Why is the roster a `.md` file?**
-> A `.md` file is plain text, so GitHub shows the exact lines added, removed, or modified in every commit. This gives the club full transparency on every roster change — who changed what, and when.
+> **Active Club Roster** is maintained as a separate Google Doc owned by the Club's official email. It is not stored in this repository. See the link below.
+>
+> 📄 **[Active Club Roster — Google Doc](#)** *(link maintained by current EC)*
 
 ---
 
@@ -34,7 +34,7 @@ Any changes to the rulebook must follow the formal amendment process described b
 
 ```
 1. Propose Amendment
-   └─ Open a GitHub Issue describing the proposed change and rationale
+   └─ Raise the proposal in the official EC group
 
 2. EC Review & Approval
    └─ The Executive Committee (EC) reviews and votes on the proposal
@@ -63,7 +63,16 @@ Any changes to the rulebook must follow the formal amendment process described b
 
 ## 🗂️ Roster Updates
 
-The `active-club-roster.md` file tracks the current state of all Official and Provisional Wings. It is a **living document** governed by its own lighter update process:
+The Active Club Roster is maintained in a **Google Doc** owned by the Club's official email address. Google Docs' built-in version history automatically tracks every change — who made it, what changed, and when — without requiring any Git knowledge.
+
+Each update should be named in Google Docs version history for clarity:
+
+```
+File → Version History → Name this version
+Example: "Brainees elevated to Official Wing — May 2026"
+```
+
+### Update Process
 
 ```
 1. EC votes on the roster change
@@ -71,12 +80,12 @@ The `active-club-roster.md` file tracks the current state of all Official and Pr
    └─ 2/3 supermajority for Official Wings
    └─ (per Article IV § 4.4 of the Rulebook)
 
-2. Edit active-club-roster.md directly
+2. Edit the Active Club Roster Google Doc directly
 
-3. Commit with a clear message: "Roster Update: [Short Description]"
+3. Name the version in Google Docs version history
 ```
 
-> Roster updates do **not** require DocuSign or a new PDF export. The commit history itself serves as the transparent, timestamped record of every change.
+> Roster updates do **not** require DocuSign or a new PDF export. Google Docs version history serves as the transparent, timestamped record of every change.
 
 ---
 
@@ -122,16 +131,16 @@ Roles include:
 - Program Manager
 - Dev Director
 
-> The current EC members and all active wing leads are listed in `active-club-roster.md`.
+> The current EC members and all active wing leads are listed in the Active Club Roster Google Doc.
 
 ---
 
 ## 📌 Governance Notes
 
 - This repository is **append-only in spirit** — old versions are never deleted, only superseded.
-- All amendment proposals must be made via **GitHub Issues** for full transparency.
 - The `main` branch always reflects the **latest ratified version** of the rulebook.
 - Branches may be used for **drafting amendments** before they are formally approved.
+- During leadership transition, the incoming EC must be granted edit access to the Active Club Roster Google Doc and write access to this repository.
 
 ---
 
